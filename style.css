@@ -1,14 +1,14 @@
+ 
 main {
     height: 95vh;
-    width: 100vw;
+    width: 95vw;
     display: flex;
     font-family: "Roboto", sans-serif;
-    background: #EEEEEE;
 
   }
   section {
-    height: 70vh;
-    width: 80vw;
+    height: 80vh;
+    width: 95vw;
     margin: auto auto;
     display: flex;
     justify-content: space-around;
@@ -26,21 +26,33 @@ main {
     position: relative;
     width: 370px;
    height: 85%;
-  padding: 40px;
-  margin-right: 40px;
+  padding: 50px;
+  margin-right: 50px;
   border-radius: 21px;
   background: #2E6434;
+  overflow: hidden;
 
    }
    .div1 img{
     position: absolute;
-    width: 500px;
-    height: 400px;
-   right: 0px;
-   bottom: 0px;
+    width: 680px;
+    height: 444px;
+    top: 284px;
+    left: -175px;
+   }
+   .div1 h4{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #FFFFFF;
 
    }
-   .div1 h2{
+   .div1 h3{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
     color: #FFFFFF;
 
    }
@@ -49,43 +61,79 @@ main {
     color: #FFFFFF;
 
    }
+   .div1 i{
+    font-size: 25px;
+    color: #FFFFFF;
+   }
+
+   /* div2 style */
+
    .div2{
     position: relative;
    width: 370px;
    height: 85%;
-    padding:40px ;
+    padding:50px ;
    border-radius: 21px;
    background: #FFFFFF;
 
 
    }
    .div2 span{
-    font-size: 34px;
+    font-size: 35px;
     font: inter;
-     font-weight: 700px;
-     line-height: 43px;
+     font-weight: 700;
+     line-height: 44px;
+     letter-spacing: 0em;
+     text-align: left;
      
+   }
+   .div2 div h5{
+    
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A9A9AA;
+   }
+   
+   .div2 span p{
+    font-size: 18px;
+    width: Hug (348.51px);
+    height: Hug (47.92px);
+     gap: 8px;
+   }
+   
+   .div2 span{
+    display: flex;
+    align-items: center;
+   }
+   .div2 div p{
+    font-size: 18px;
+    width: Hug (348.51px);
+    height: Hug (47.92px);
+     gap: 8px;
+
    }
 
    .div2 button{
     position: absolute;
     width: 383px;
    height: 69px;
-    top: 500px;
-    left: 26px;
-   padding: 13px 0px 13px 0px;
-  border-radius: 13px;
-  background: #2E6434;
-
-   font-family: Inter;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 44px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #FFFFFF;
+    top: 610px;
+    left: 40px;
+    padding: 13px 0px 13px 0px;
+    border-radius: 13px;
+     background: #2E6434;
+    color: #FFFFFF;
+    border: none;
+    font-size: 23px;
 
    }
+
+   /* div3 style */
+
    .div3{
     position: relative;
     width: 370px;
@@ -95,28 +143,49 @@ main {
     background: #FFFFFF;
 
    }
-   .div3 span{
-    font: inter;
-    font-size: 34px;
-     font-weight:600px;
-     line-height: 40px;
+   .div3 span {
+    display: flex;
+    align-items: center;
+
    }
-   .div3 button{
-    position: absolute ;
-    font-family: inter;
-    width: 345px;
-    height: 69px;
-    top: 500px;
-    left: 26px;
-    padding: 13px 0px 13px 0px;
-    border-radius: 12px;
-    background: #2E6434;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 24px;
-
-
+   .div3 span{
+    font-size: 35px;
+    font: inter;
+     font-weight: 700;
+     line-height: 44px;
+     letter-spacing: 0em;
+     text-align: left;
      
-
+   }
+   .div3 div h5{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A9A9AA;
+   }
+   .div3 span p{
+    font-size: 18px;
+    width: Hug (348.51px);
+    height: Hug (47.92px);
+     gap: 8px;
+   }
+    
+    .div3 button{
+      position: absolute;
+      width: 383px;
+     height: 69px;
+      top: 610px;
+      left: 40px;
+      padding: 13px 0px 13px 0px;
+      border-radius: 13px;
+       background: #2E6434;
+      color: #FFFFFF;
+      border: none;
+      font-size: 23px;
+   }
+   .dashed{
+    border-top: 2px dashed #bbb;
    }
